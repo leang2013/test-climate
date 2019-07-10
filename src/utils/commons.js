@@ -13,7 +13,7 @@ const formattedDate = (timestamp) => {
   const minutes = time.getMinutes();
   const seconds = time.getSeconds();
 
-  return `${year}-${month}-${day}T${hour}:${minutes}:${seconds}`;
+  return `${year}-${month}-${day} ${hour}:${minutes}:${seconds}`;
 };
 
 const compareDateDesc = (dateA, dateB) => {
