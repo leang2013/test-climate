@@ -1,0 +1,27 @@
+{
+  "name": "test-climate",
+  "version": "1.0.0",
+  "description": "Test Climate",
+  "author": "Leandro Martinez <leang.martinez@gmail.com>",
+  "contributors": [
+    "Leandro Martinez <leang.martinez@gmail.com>"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'src/tests/**/**spec.js'",
+    "test:coverage": "nyc npm run test",
+    "start": "node index.js",
+    "lint": "eslint '**/*.js' --ignore-pattern node_modules/"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
