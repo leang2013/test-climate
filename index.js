@@ -1,5 +1,5 @@
 const data = require('./src/config/data');
-const List = require('./src/utils/List');
+const List = require('./src/utils/list');
 const { sortByDate } = require('./src/utils/commons');
 
 const plantations = List.getEvents(data, 2019);
