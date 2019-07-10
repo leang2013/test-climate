@@ -82,7 +82,7 @@ describe('List', () => {
       expect(firstEvent).to.deep.include({
         grower: 'grower1',
         farm: 'farm2',
-        date: '2019-9-15T10:57:21',
+        date: '2019-9-15 10:57:21',
         cropType: 'corn',
       });
     });
