@@ -1,5 +1,5 @@
-const Event = require('./../entities/Event');
-const Grower = require('./../entities/Grower');
+const Event = require('../entities/Event');
+const Grower = require('../entities/Grower');
 const { getYear, formattedDate } = require('./commons');
 
 const List = {

@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const List = require('../../../utils/List');
+const List = require('../../../utils/list');
 const { sortByDate } = require('../../../utils/commons');
 
 const mockedGrower = {
